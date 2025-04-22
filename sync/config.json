@@ -3,6 +3,7 @@
   "version": "0.4",
   "slug": "sync",
   "description": "Sync config files over sftp",
+  "arch": ["aarch64"],
   "startup": "once",
   "boot": "manual",
   "map": ["config"],

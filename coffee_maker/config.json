@@ -3,7 +3,8 @@
   "version": "1.2",
   "slug": "coffee_maker",
   "description": "Expose a web frontend to control my coffee maker",
-  "startup": "before",
+  "startup": "once",
+  "arch": ["aarch64"],
   "boot": "auto",
   "ports": {
     "80/tcp": 8080
